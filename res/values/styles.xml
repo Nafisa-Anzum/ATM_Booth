@@ -1,0 +1,52 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+       
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+   			
+    </style>
+    <style name="diffColor" parent="android:Theme.Holo.Light">
+       <item name="android:actionBarStyle">@style/MyActionBar</item> 
+       <item name="android:actionMenuTextColor">@color/Clouds</item>
+       <item name="android:homeAsUpIndicator">@drawable/ic_back_icon</item>
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/GreenSea</item>
+         <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/Clouds</item>
+    </style>
+    
+    <color name="Turquoise">#1abc9c</color>
+    <color name="GreenSea">#16a085</color>
+    <color name="Clouds">#ecf0f1</color>
+    <color name="peterRiver">#3498db</color>
+    <color name="silver">#bdc3c7</color>
+    <color name="Nephritis">#27ae60</color>
+    <color name="lightGreenSea">#007E60</color>
+    <color name="MidnightBlue">#2c3e50</color>
+    <color name="pumpkin">#d35400</color>
+    <color name="grayOrange">#928606</color>
+    <color name="white">#ffffff</color>
+    <color name="SANDSTORM">#F9BF3B</color>
+    <color name="Chambray">#19B5FE</color>
+    <color name="CHESTNUTROSE">#D24D57</color>
+    <color name="WISTERIA">#9B59B6</color>
+    <color name="Edward">#ABB7B7</color>
+    <color name="Downy">#65C6BB</color>
+    <color name="JADE">#00B16A</color>
+</resources>

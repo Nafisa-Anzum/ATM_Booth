@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Clouds"
+    tools:context=".MainActivity" >
+    
+    <!-- Editext for Search -->
+    <ExpandableListView
+                android:id="@+id/lvExp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:cacheColorHint="#00000000"/>
+    <com.google.android.gms.maps.MapView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mapView"
+	android:layout_below="@+id/lvExp"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:fastScrollEnabled="true"
+        android:dividerHeight="2.0sp">
+    </ListView>
+ 
+</LinearLayout>
